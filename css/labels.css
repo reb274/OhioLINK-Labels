@@ -1,0 +1,101 @@
+@media all {
+
+    * {
+        font-family: Verdana, Arial, sans-serif;
+    }
+
+    @page {
+        size: 8.5in 11in;
+        margin: 0.20in;
+        padding: 0;
+        border: none;
+        border-collapse: collapse;
+    }
+
+    body {
+        min-height: 100%;
+        margin: 0;
+    }
+
+    h1 {
+        margin-bottom: 0;
+    }
+
+    table {
+        display: table;
+        table-layout: fixed;
+        height: 10.15in;
+    }
+
+    /* Reset Boostrap style */
+    table td, table tr {
+        border: none;
+    }
+
+    /* Inner borders only */
+    table td:not(:first-child) {
+        border-left: 2px dashed #D3D3D3 !important;
+    }
+
+    table tr:not(:first-child) td {
+        border-top: 2px dashed #D3D3D3 !important;
+    }
+
+    table h1, h2, h3, h4, h5, h6, p {
+        margin-bottom: 0;
+    }
+
+    .label-from-id {
+        font-size: 7pt;
+        font-weight: bold;
+    }
+
+    .label-from-name {
+        font-size: 7pt;
+        font-weight: bold;
+    }
+
+    .label-from-address {
+        font-size: 7pt;
+    }
+
+    .label-hub {
+        margin-top: -24pt;
+        font-size: 36pt;
+        font-weight: bold;
+        line-height: 1;
+    }
+
+    .label-route-id {
+        font-size: 32pt;
+        font-weight: bold;
+        line-height: 1;
+    }
+
+    .label-to-id {
+        font-size: 15pt;
+        font-weight: bold;
+        display: inline-block;
+    }
+
+    .label-to-name {
+        font-size: 15pt;
+        font-weight: bold;
+    }
+
+    .label-to-address {
+        font-size: 12pt;
+    }
+
+    .label-seo {
+        font-size: 9pt;
+        margin-left: 14pt;
+        font-weight: bold;
+        display: inline;
+
+    }
+
+    .priority {
+        filter: opacity(0.7)
+    }
+}
