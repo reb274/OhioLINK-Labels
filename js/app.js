@@ -24,7 +24,6 @@ function addCustomLabel() {
             "city": city,
             "state": state,
             "zip": parseInt(zip),
-            "seo": null,
             "hub": null,
             "route": null
         });
@@ -83,10 +82,6 @@ function getLabelData() {
                 break;
             case "route-id":
                 e.textContent = destination.route;
-                break;
-            case "seo":
-                // empty if no value
-                e.textContent = destination.seo ? ["SEO:", destination.seo].join(" ") : "";
                 break;
             default:
                 e.textContent = 'ERROR'
